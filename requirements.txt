@@ -1,0 +1,11 @@
+# Core - everything the environment itself needs.
+gymnasium>=0.29.0
+numpy>=1.24.0
+
+# The notebook: plots and the channel heatmap.
+matplotlib>=3.5.0
+jupyter>=1.0.0
+
+# Optional. Only needed for render_mode="human" to watch a game in a window; the environment
+# imports it on first use, so training and evaluation work without it.
+pygame>=2.2.0
